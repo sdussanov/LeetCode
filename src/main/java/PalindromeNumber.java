@@ -16,7 +16,7 @@ public class PalindromeNumber {
     }
 
 
-    public static boolean isPalindrome1(int x) {
+    static boolean isPalindrome1(int x) {
         String stringValue = Integer.toString(x);
         char[] charArray = stringValue.toCharArray();
         System.out.println(Arrays.toString(charArray));
@@ -32,7 +32,7 @@ public class PalindromeNumber {
     }
 
 
-    public static boolean isPalindrome2(int x) {
+    static boolean isPalindrome2(int x) {
         if (x >= 0) {
             ArrayList<Integer> stack = new ArrayList<>();
             while (x > 0) {
@@ -54,14 +54,14 @@ public class PalindromeNumber {
     }
 
 
-    public static boolean isPalindrome3(int x) {
+    static boolean isPalindrome3(int x) {
         String original = Integer.toString(x);
         String reverse = new StringBuilder(original).reverse().toString();
         return original.equals(reverse);
     }
 
 
-    public static boolean isPalindrome4(int x) {
+    static boolean isPalindrome4(int x) {
         if (x >= 0) {
             int originalNumber = x;
             int reverse = 0;

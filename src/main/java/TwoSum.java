@@ -17,7 +17,7 @@ public class TwoSum {
     }
 
 
-    private static int[] twoSum1(int[] nums, int target) {
+    static int[] twoSum1(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if ((nums[i] + nums[j]) == target) {
@@ -29,7 +29,7 @@ public class TwoSum {
     }
 
 
-    private static int[] twoSum2(int[] nums, int target) {
+    static int[] twoSum2(int[] nums, int target) {
         int[] result = new int[2];
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
