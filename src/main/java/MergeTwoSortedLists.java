@@ -1,12 +1,17 @@
 import java.util.PriorityQueue;
 
 public class MergeTwoSortedLists {
+
     public static void main(String[] args) {
+        ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+        ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
 
-
+        ListNode result = mergeTwoLists2(list1, list2);
+        System.out.println(result);
     }
 
-    public ListNode mergeTwoLists1(ListNode list1, ListNode list2) {
+
+    static ListNode mergeTwoLists1(ListNode list1, ListNode list2) {
         if (list1 == null) return list2;
         if (list2 == null) return list1;
         if (list1.val < list2.val) {
@@ -18,7 +23,8 @@ public class MergeTwoSortedLists {
         }
     }
 
-    public ListNode mergeTwoLists2(ListNode list1, ListNode list2) {
+
+    static ListNode mergeTwoLists2(ListNode list1, ListNode list2) {
         ListNode dummy = new ListNode(0);
         ListNode curr = dummy;
         while (list1 != null && list2 != null) {
@@ -35,7 +41,8 @@ public class MergeTwoSortedLists {
         return dummy.next;
     }
 
-    public ListNode mergeTwoLists3(ListNode list1, ListNode list2) {
+
+    static ListNode mergeTwoLists3(ListNode list1, ListNode list2) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         while (list1 != null) {
             pq.add(list1.val);
@@ -53,7 +60,6 @@ public class MergeTwoSortedLists {
         }
         return dummy.next;
     }
-
 
 }
 

@@ -12,6 +12,7 @@ public class LongestCommonPrefix {
         System.out.println("Ответ: " + longestCommonPrefix3(strs3));
     }
 
+
     static String longestCommonPrefix(String[] strs) {
         Arrays.sort(strs);
         StringBuilder sb = new StringBuilder();
@@ -27,6 +28,7 @@ public class LongestCommonPrefix {
         }
         return sb.toString();
     }
+
 
     static String longestCommonPrefix2(String[] strs) {
         if (strs.length == 0) {
@@ -61,4 +63,5 @@ public class LongestCommonPrefix {
         }
         return prefix;
     }
+
 }

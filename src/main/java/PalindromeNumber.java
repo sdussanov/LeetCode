@@ -12,7 +12,6 @@ public class PalindromeNumber {
         System.out.println(isPalindrome4(x));
         System.out.println(isPalindrome4(y));
         System.out.println(isPalindrome4(z));
-
     }
 
 
@@ -74,4 +73,5 @@ public class PalindromeNumber {
         }
         return false;
     }
+
 }

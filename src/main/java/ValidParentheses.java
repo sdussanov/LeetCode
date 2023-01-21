@@ -1,6 +1,7 @@
 import java.util.Stack;
 
 public class ValidParentheses {
+
     public static void main(String[] args) {
         String s1 = "()";
         String s2 = "()[]{}";
@@ -104,4 +105,5 @@ public class ValidParentheses {
         }
         return head == 0;
     }
+
 }

@@ -32,6 +32,7 @@ public class RomanToInteger {
 
     }
 
+
     static int romanToInt1(String s) {
         char[] charArray = s.toCharArray();
         int result = 0;
@@ -82,6 +83,7 @@ public class RomanToInteger {
         return result;
     }
 
+
     static int romanToInt2(String s) {
         int result = 0;
         int number;
@@ -131,6 +133,7 @@ public class RomanToInteger {
         return result;
     }
 
+
     static int romanToInt3(String s) {
 
         int result = 0, number = 0, prev = 0;
@@ -155,6 +158,7 @@ public class RomanToInteger {
         return result;
     }
 
+
     static int romanToInt4(String s) {
         int result = 0;
         for (int i = 0; i < s.length(); i++) {
@@ -175,6 +179,7 @@ public class RomanToInteger {
         return result;
     }
 
+
     static int value(char r) {
         if (r == 'I')
             return 1;
@@ -193,6 +198,7 @@ public class RomanToInteger {
         return -1;
     }
 
+
     static int romanToInt5(String s) {
         int result = 0;
         for (int i = 0; i < s.length(); i++) {
@@ -205,5 +211,6 @@ public class RomanToInteger {
         }
         return result;
     }
+
 }
 
