@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041f1ca0-5f20-47f8-af7f-a764e556e3f7" name="Changes" comment="1.0.9 added solution length of last word">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LongestCommonPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MergeTwoSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MergeTwoSortedLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PalindromeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveDuplicatesSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveDuplicatesSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanToInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SearchInsertPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchInsertPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ValidParentheses.class" afterDir="false" />
+    <list default="true" id="041f1ca0-5f20-47f8-af7f-a764e556e3f7" name="Changes" comment="1.0.10 added solution plus one">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +183,35 @@
       <option name="project" value="LOCAL" />
       <updated>1674375840078</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1.0.9 added changes to git ingnore">
+      <created>1674384081729</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674384081729</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1.0.9 some minor changes">
+      <created>1674384168512</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674384168512</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1.0.10 added solution Plus One">
+      <created>1674384207352</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674384207352</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1.0.10 added solution plus one">
+      <created>1674384432910</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674384432910</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +237,11 @@
     <MESSAGE value="1.0.7 added solution search insert position" />
     <MESSAGE value="1.0.8 minor edits in classes" />
     <MESSAGE value="1.0.9 added solution length of last word" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.9 added solution length of last word" />
+    <MESSAGE value="1.0.9 added changes to git ingnore" />
+    <MESSAGE value="1.0.9 some minor changes" />
+    <MESSAGE value="1.0.10 added solution Plus One" />
+    <MESSAGE value="1.0.10 added solution plus one" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.10 added solution plus one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
