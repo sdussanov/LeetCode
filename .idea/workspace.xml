@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041f1ca0-5f20-47f8-af7f-a764e556e3f7" name="Changes" comment="1.0.10 added solution plus one">
+    <list default="true" id="041f1ca0-5f20-47f8-af7f-a764e556e3f7" name="Changes" comment="1.0.10 minor changes in gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SF/StudentList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BattleRoyal" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674384432910</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="1.0.10 minor changes in gitignore">
+      <created>1674386045504</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674386045504</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,7 +248,8 @@
     <MESSAGE value="1.0.9 some minor changes" />
     <MESSAGE value="1.0.10 added solution Plus One" />
     <MESSAGE value="1.0.10 added solution plus one" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.10 added solution plus one" />
+    <MESSAGE value="1.0.10 minor changes in gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.10 minor changes in gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
