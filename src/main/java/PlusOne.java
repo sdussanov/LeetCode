@@ -6,7 +6,7 @@ public class PlusOne {
         int[] digits1 = new int[]{1, 2, 3};
         int[] digits2 = new int[]{4, 3, 2, 1};
         int[] digits3 = new int[]{9};
-        int[] digits4 = new int[]{5, 4, 9, 9};
+        int[] digits4 = new int[]{5, 5, 9, 9};
 
         System.out.println(Arrays.toString(plusOne3(digits1)));
         System.out.println(Arrays.toString(plusOne3(digits2)));
