@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="041f1ca0-5f20-47f8-af7f-a764e556e3f7" name="Changes" comment="1.0.9 added solution length of last word">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MergeTwoSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MergeTwoSortedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PalindromeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveDuplicatesSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveDuplicatesSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanToInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SearchInsertPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchInsertPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ValidParentheses.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2KHDEnnZ0nOGZRUfXjKLbUCXapd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SF/StudentList" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.PlusOne">
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LengthOfLastWord" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlusOne" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveElement" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchInsertPosition" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.SearchInsertPosition" />
+        <item itemvalue="Application.RemoveElement" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="041f1ca0-5f20-47f8-af7f-a764e556e3f7" name="Changes" comment="" />
+      <created>1673622507631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673622507631</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1.0.0 first commit">
+      <created>1673717790368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673717790368</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.0.0 first commit">
+      <created>1673799942425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673799942425</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.0.1 added solution roman to integer">
+      <created>1673799979431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673799979431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.0.2 added solution longest common prefix">
+      <created>1673891333802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673891333802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.0.3 added solution valid parentheses">
+      <created>1673976317616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673976317616</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1.0.4 added solution merge two sorted lists">
+      <created>1674064423432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674064423432</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1.0.5 added solution remove duplicates sorted array">
+      <created>1674149971475</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674149971475</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.0.5 added solution remove duplicates sorted array">
+      <created>1674150171818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674150171818</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.0.6 added solution remove element solution">
+      <created>1674235741426</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674235741426</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.0.7 added solution search insert position">
+      <created>1674315410039</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674315410039</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1.0.8 minor edits in classes">
+      <created>1674315477536</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674315477536</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1.0.9 added solution length of last word">
+      <created>1674375743394</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674375743394</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1.0.9 added solution length of last word">
+      <created>1674375840078</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674375840078</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.0 first commit" />
+    <MESSAGE value="1.0.1 added solution roman to integer" />
+    <MESSAGE value="1.0.2 added solution longest common prefix" />
+    <MESSAGE value="1.0.3 added solution valid parentheses" />
+    <MESSAGE value="1.0.4 added solution merge two sorted lists" />
+    <MESSAGE value="1.0.5 added solution remove duplicates sorted array" />
+    <MESSAGE value="1.0.6 added solution remove element solution" />
+    <MESSAGE value="1.0.7 added solution search insert position" />
+    <MESSAGE value="1.0.8 minor edits in classes" />
+    <MESSAGE value="1.0.9 added solution length of last word" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.9 added solution length of last word" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
