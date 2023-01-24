@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041f1ca0-5f20-47f8-af7f-a764e556e3f7" name="Changes" comment="1.0.11 added solution add binary">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sqrt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PlusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.AddBinary">
+  <component name="RunManager" selected="Application.Sqrt">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddBinary" />
       <module name="LeetCode" />
@@ -60,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchInsertPosition" />
+    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sqrt" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sqrt" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.LengthOfLastWord" />
-        <item itemvalue="Application.SearchInsertPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674500065523</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="1.0.11 added solution add binary">
+      <created>1674566807860</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674566807861</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
