@@ -10,9 +10,10 @@ public class Sqrt {
 
     }
 
+
     static int mySqrt1(int x) {
         if (x <= 0) return x;
-        long left = 0, right = x;
+        long left = 1, right = x;
         while (left <= right) {
             long mid = left + (right - left) / 2;
             if (mid * mid > x) {
