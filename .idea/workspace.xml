@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041f1ca0-5f20-47f8-af7f-a764e556e3f7" name="Changes" comment="1.0.11 added solution add binary">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sqrt.java" afterDir="false" />
+    <list default="true" id="041f1ca0-5f20-47f8-af7f-a764e556e3f7" name="Changes" comment="1.0.12 added solution sqrt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClimbingStairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PlusOne.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Sqrt">
+  <component name="RunManager" selected="Application.ClimbingStairs">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddBinary" />
       <module name="LeetCode" />
@@ -48,8 +47,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LengthOfLastWord" />
+    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClimbingStairs" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.Sqrt" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LengthOfLastWord" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674566807861</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="1.0.12 added solution sqrt">
+      <created>1674582978694</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674582978694</updated>
+    </task>
+    <task id="LOCAL-00023" summary="1.0.12 added solution sqrt">
+      <created>1674583195492</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1674583195492</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +287,8 @@
     <MESSAGE value="1.0.10 added solution plus one" />
     <MESSAGE value="1.0.10 minor changes in gitignore" />
     <MESSAGE value="1.0.11 added solution add binary" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.11 added solution add binary" />
+    <MESSAGE value="1.0.12 added solution sqrt" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.12 added solution sqrt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
