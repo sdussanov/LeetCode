@@ -1,4 +1,4 @@
-public class AddBinary {
+class AddBinary {
 
     public static void main(String[] args) {
         String a1 = "11";
@@ -10,8 +10,7 @@ public class AddBinary {
         System.out.println(addBinary(a2, b2));
     }
 
-
-    static String addBinary(String a, String b) {
+    public static String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();
         int i = a.length() - 1, j = b.length() - 1, carry = 0;
         while (i >= 0 || j >= 0) {
@@ -24,5 +23,4 @@ public class AddBinary {
         if (carry != 0) sb.append(carry);
         return sb.reverse().toString();
     }
-
 }

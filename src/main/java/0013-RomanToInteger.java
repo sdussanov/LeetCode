@@ -1,9 +1,9 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class RomanToInteger {
+class RomanToInteger {
 
-    private static final Map<String, Integer> ROMAN_TO_INT = new HashMap<String, Integer>() {{
+    private static final Map<String, Integer> ROMAN_TO_INT = new HashMap<>() {{
         put("I", 1);
         put("IV", 4);
         put("V", 5);
@@ -29,16 +29,13 @@ public class RomanToInteger {
         System.out.println(romanToInt5(str1));
         System.out.println(romanToInt5(str2));
         System.out.println(romanToInt5(str3));
-
     }
-
 
     static int romanToInt1(String s) {
         char[] charArray = s.toCharArray();
         int result = 0;
         int number;
         int j;
-
         for (int i = 0; i < charArray.length; i++) {
             j = i + 1;
             switch (charArray[i]) {
@@ -83,12 +80,10 @@ public class RomanToInteger {
         return result;
     }
 
-
     static int romanToInt2(String s) {
         int result = 0;
         int number;
         int j;
-
         for (int i = 0; i < s.length(); i++) {
             j = i + 1;
             switch (s.charAt(i)) {
@@ -133,33 +128,7 @@ public class RomanToInteger {
         return result;
     }
 
-
-    static int romanToInt3(String s) {
-
-        int result = 0, number = 0, prev = 0;
-
-        for (int i = s.length() - 1; i >= 0; i--) {
-            switch (s.charAt(i)) {
-                case 'M' -> number = 1000;
-                case 'D' -> number = 500;
-                case 'C' -> number = 100;
-                case 'L' -> number = 50;
-                case 'X' -> number = 10;
-                case 'V' -> number = 5;
-                case 'I' -> number = 1;
-            }
-            if (number < prev) {
-                result -= number;
-            } else {
-                result += number;
-            }
-            prev = number;
-        }
-        return result;
-    }
-
-
-    static int romanToInt4(String s) {
+    public static int romanToInt3(String s) {
         int result = 0;
         for (int i = 0; i < s.length(); i++) {
             int s1 = value(s.charAt(i));
@@ -179,7 +148,6 @@ public class RomanToInteger {
         return result;
     }
 
-
     static int value(char r) {
         if (r == 'I')
             return 1;
@@ -198,8 +166,7 @@ public class RomanToInteger {
         return -1;
     }
 
-
-    static int romanToInt5(String s) {
+    public static int romanToInt4(String s) {
         int result = 0;
         for (int i = 0; i < s.length(); i++) {
             if (i + 1 < s.length() && ROMAN_TO_INT.containsKey(s.substring(i, i + 2))) {
@@ -212,5 +179,25 @@ public class RomanToInteger {
         return result;
     }
 
+    public static int romanToInt5(String s) {
+        int result = 0, number = 0, prev = 0;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            switch (s.charAt(i)) {
+                case 'M' -> number = 1000;
+                case 'D' -> number = 500;
+                case 'C' -> number = 100;
+                case 'L' -> number = 50;
+                case 'X' -> number = 10;
+                case 'V' -> number = 5;
+                case 'I' -> number = 1;
+            }
+            if (number < prev) {
+                result -= number;
+            } else {
+                result += number;
+            }
+            prev = number;
+        }
+        return result;
+    }
 }
-

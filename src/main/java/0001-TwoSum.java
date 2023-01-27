@@ -2,22 +2,21 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+class TwoSum {
+
     public static void main(String[] args) {
+        int[] nums1 = new int[]{2, 7, 11, 15};
+        int[] nums2 = new int[]{3, 2, 4};
+        int[] nums3 = new int[]{3, 3};
+        int[] nums4 = new int[]{1, 1, 1, 1};
 
-        int[] numsA = new int[]{2, 7, 11, 15};
-        int[] numsB = new int[]{3, 2, 4};
-        int[] numsC = new int[]{3, 3};
-        int[] numsD = new int[]{1, 1, 1, 1};
-
-        System.out.println(Arrays.toString(twoSum2(numsA, 9)));
-        System.out.println(Arrays.toString(twoSum2(numsB, 6)));
-        System.out.println(Arrays.toString(twoSum1(numsC, 6)));
-        System.out.println(Arrays.toString(twoSum1(numsD, 2)));
+        System.out.println(Arrays.toString(twoSum2(nums1, 9)));
+        System.out.println(Arrays.toString(twoSum2(nums2, 6)));
+        System.out.println(Arrays.toString(twoSum1(nums3, 6)));
+        System.out.println(Arrays.toString(twoSum1(nums4, 2)));
     }
 
-
-    static int[] twoSum1(int[] nums, int target) {
+    public static int[] twoSum1(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if ((nums[i] + nums[j]) == target) {
@@ -28,8 +27,7 @@ public class TwoSum {
         return new int[]{};
     }
 
-
-    static int[] twoSum2(int[] nums, int target) {
+    public static int[] twoSum2(int[] nums, int target) {
         int[] result = new int[2];
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
@@ -42,6 +40,4 @@ public class TwoSum {
         }
         return result;
     }
-
 }
-

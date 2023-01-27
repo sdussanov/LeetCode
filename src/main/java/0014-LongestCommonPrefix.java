@@ -1,22 +1,20 @@
 import java.util.Arrays;
 
-public class LongestCommonPrefix {
+class LongestCommonPrefix {
 
     public static void main(String[] args) {
-        String[] strs = new String[]{"flower", "flow", "flight"};
+        String[] strs1 = new String[]{"flower", "flow", "flight"};
         String[] strs2 = new String[]{"dog", "racecar", "car"};
         String[] strs3 = new String[]{"", "flow", "flight"};
 
-        System.out.println("Ответ: " + longestCommonPrefix3(strs));
-        System.out.println("Ответ: " + longestCommonPrefix3(strs2));
-        System.out.println("Ответ: " + longestCommonPrefix3(strs3));
+        System.out.println(longestCommonPrefix3(strs1));
+        System.out.println(longestCommonPrefix3(strs2));
+        System.out.println(longestCommonPrefix3(strs3));
     }
 
-
-    static String longestCommonPrefix(String[] strs) {
+    public static String longestCommonPrefix1(String[] strs) {
         Arrays.sort(strs);
         StringBuilder sb = new StringBuilder();
-
         for (int i = 0; i < strs[0].length(); i++) {
             System.out.print(strs[0].charAt(i) + " - ");
             System.out.println(strs[strs.length - 1].charAt(i));
@@ -29,26 +27,21 @@ public class LongestCommonPrefix {
         return sb.toString();
     }
 
-
-    static String longestCommonPrefix2(String[] strs) {
+    public static String longestCommonPrefix2(String[] strs) {
         if (strs.length == 0) {
             return "";
         }
-
         Arrays.sort(strs);
         char[] first = strs[0].toCharArray();
         char[] last = strs[strs.length - 1].toCharArray();
-
         int i = 0;
         while (i < first.length && i < last.length && first[i] == last[i]) {
             i++;
         }
-
         return new String(first, 0, i);
     }
 
-
-    static String longestCommonPrefix3(String[] strs) {
+    public static String longestCommonPrefix3(String[] strs) {
         if (strs.length == 0) {
             return "";
         }
@@ -63,5 +56,4 @@ public class LongestCommonPrefix {
         }
         return prefix;
     }
-
 }

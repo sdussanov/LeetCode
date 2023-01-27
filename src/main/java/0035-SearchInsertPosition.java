@@ -1,14 +1,12 @@
-public class SearchInsertPosition {
+class SearchInsertPosition {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1, 4, 7, 7, 8};
-        int k = searchInsertPosition3(nums, 5);
 
-        System.out.println("Position: " + k);
+        System.out.println(searchInsertPosition3(nums, 5));
     }
 
-
-    static int searchInsertPosition1(int[] nums, int target) {
+    public static int searchInsertPosition1(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == target) {
                 return i;
@@ -20,8 +18,7 @@ public class SearchInsertPosition {
         return nums.length;
     }
 
-
-    static int searchInsertPosition2(int[] nums, int target) {
+    public static int searchInsertPosition2(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
         while (left <= right) {
@@ -37,13 +34,10 @@ public class SearchInsertPosition {
         return left;
     }
 
-
-    static int searchInsertPosition3(int[] nums, int target) {
+    public static int searchInsertPosition3(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] >= target) return i;
         }
         return nums.length;
     }
-
 }
-

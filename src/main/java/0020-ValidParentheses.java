@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class ValidParentheses {
+class ValidParentheses {
 
     public static void main(String[] args) {
         String s1 = "()";
@@ -14,8 +14,7 @@ public class ValidParentheses {
         System.out.println(isValidParentheses4(s4));
     }
 
-
-    static public boolean isValidParentheses1(String s) {
+    public static boolean isValidParentheses1(String s) {
         int left = 0;
         int right = s.length() - 1;
         while (left < right) {
@@ -31,10 +30,8 @@ public class ValidParentheses {
         return true;
     }
 
-
-    static boolean isValidParentheses2(String s) {
+    public static boolean isValidParentheses2(String s) {
         Stack<Character> stack = new Stack<>();
-
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(' || s.charAt(i) == '{' || s.charAt(i) == '[') {
                 stack.push(s.charAt(i));
@@ -57,10 +54,8 @@ public class ValidParentheses {
         return stack.empty();
     }
 
-
-    static boolean isValidParentheses3(String s) {
+    public static boolean isValidParentheses3(String s) {
         Stack<Character> stack = new Stack<>();
-
         for (char ch : s.toCharArray()) {
             switch (ch) {
                 case '(':
@@ -88,8 +83,7 @@ public class ValidParentheses {
         return stack.isEmpty();
     }
 
-
-    static boolean isValidParentheses4(String s) {
+    public static boolean isValidParentheses4(String s) {
         char[] stack = new char[s.length()];
         int head = 0;
         for (char c : s.toCharArray()) {
@@ -105,5 +99,4 @@ public class ValidParentheses {
         }
         return head == 0;
     }
-
 }

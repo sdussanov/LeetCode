@@ -1,4 +1,4 @@
-public class LengthOfLastWord {
+class LengthOfLastWord {
 
     public static void main(String[] args) {
         String s1 = "Hello World";
@@ -10,26 +10,22 @@ public class LengthOfLastWord {
         System.out.println(lengthOfLastWord4(s3));
     }
 
-
-    static int lengthOfLastWord1(String s) {
+    public static int lengthOfLastWord1(String s) {
         String lastWord = s.trim().substring(s.trim().lastIndexOf(" ") + 1);
         return lastWord.length();
     }
 
-
-    static int lengthOfLastWord2(String s) {
+    public static int lengthOfLastWord2(String s) {
         return s.trim().substring(s.trim().lastIndexOf(" ") + 1).length();
     }
 
-
-    static int lengthOfLastWord3(String s) {
+    public static int lengthOfLastWord3(String s) {
         s = s.trim();
         int lastIndex = s.lastIndexOf(" ");
         return s.length() - lastIndex - 1;
     }
 
-
-    static int lengthOfLastWord4(String s) {
+    public static int lengthOfLastWord4(String s) {
         int len = s.length(), lastLength = 0;
         while (len > 0 && s.charAt(len - 1) == ' ') {
             len--;
@@ -40,5 +36,4 @@ public class LengthOfLastWord {
         }
         return lastLength;
     }
-
 }

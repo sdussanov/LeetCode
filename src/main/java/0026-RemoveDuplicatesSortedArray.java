@@ -1,21 +1,15 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
-public class RemoveDuplicatesSortedArray {
+class RemoveDuplicatesSortedArray {
 
     public static void main(String[] args) {
-
         int[] nums = new int[]{1, 2, 2, 2, 3, 4, 4, 5, 6};
-        int k = removeDuplicates3(nums);
 
-        System.out.println("Unique items: " + k);
-        System.out.println(Arrays.toString(nums));
+        System.out.println(removeDuplicates3(nums));
     }
 
-
-    static int removeDuplicates1(int[] nums) {
+    public static int removeDuplicates1(int[] nums) {
         ArrayList<Number> dummy = new ArrayList<>();
-
         for (int i = 0; i < nums.length; i++) {
             if (!dummy.contains(nums[i])) {
                 dummy.add(nums[i]);
@@ -24,12 +18,10 @@ public class RemoveDuplicatesSortedArray {
                 nums[j] = (int) dummy.get(j);
             }
         }
-
         return dummy.size();
     }
 
-
-    static int removeDuplicates2(int[] nums) {
+    public static int removeDuplicates2(int[] nums) {
         ArrayList<Integer> dummy = new ArrayList<>();
         for (int i : nums) if (!dummy.contains(i)) dummy.add(i);
         int i = 0;
@@ -37,8 +29,7 @@ public class RemoveDuplicatesSortedArray {
         return dummy.size();
     }
 
-
-    static int removeDuplicates3(int[] nums) {
+    public static int removeDuplicates3(int[] nums) {
         if (nums.length == 0) return 0;
         int i = 0;
         for (int j = 1; j < nums.length; j++) {
@@ -49,5 +40,4 @@ public class RemoveDuplicatesSortedArray {
         }
         return i + 1;
     }
-
 }
